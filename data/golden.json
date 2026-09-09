@@ -1,0 +1,1962 @@
+[
+  {
+    "pair_id": 8578,
+    "customer_text": "@AppleSupport I bought 2 iPhones X on Friday, but I don\u2019t see any charge on my credit card. Do I should worry or it\u2019s normal?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for reaching out to us. Please send us a DM with your country, and we'll look into this. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 1
+  },
+  {
+    "pair_id": 757,
+    "customer_text": "Hey @customer! Last time I downloaded an update my freaking phone gave me hell. Any recommendations?",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We're here to help. Meet us in DM and we can check on available options. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 2
+  },
+  {
+    "pair_id": 761,
+    "customer_text": "@AppleSupport The app is still there. But no longer able to control it from the lockscreen.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Just to confirm, this is only happening with Spotify, correct?",
+    "issue_complexity": "SIMPLE",
+    "id": 3
+  },
+  {
+    "pair_id": 17304,
+    "customer_text": "@customer how come when I am listening to @customer my music keeps pausing by itself????? I\u2019m sorry I listen to Spotify and not Apple Music but Spotify is simply better. I\u2019m sick of your shit Apple",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'll do everything we can to help you figure out what's happening. To start, what type of device are you using? Along with that, please confirm which version of the operating system is currently installed. Send over those details to us via DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 4
+  },
+  {
+    "pair_id": 23076,
+    "customer_text": "@customer ok not sure why this is happening but I need assistance charged my iPhone X (purchased yesterday) wirelessly and reached for it and this was on the screen, I could probably fry an egg https://t.co/WgADbE9263",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'll be happy to take a look into this with you. Could you please send us a DM with what country you're located in so we can get started? https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 5
+  },
+  {
+    "pair_id": 4887,
+    "customer_text": "@AppleSupport whenever I try to see the photos that I\u2019ve just taken my #iphone6 shows me this. I\u2019ve reset it, I\u2019ve restored it... help? https://t.co/8tQy27WvMe",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We know how important it is to be able to view your photos. Are you able to see older photos on your iPhone?",
+    "issue_complexity": "SIMPLE",
+    "id": 6
+  },
+  {
+    "pair_id": 14312,
+    "customer_text": "Can\u2019t share any photos from iCloud with iOS 11.1 @AppleSupport https://t.co/Ef0VgWX6US",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 7
+  },
+  {
+    "pair_id": 4891,
+    "customer_text": "@AppleSupport And the new ones tauntingly pretend they are saved- it\u2019s just when I click on them or try to send them that the grey screen shows",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We appreciate those details. For more help with Photos, please reach out to our Photos experts here: https://t.co/IBIY3vMgPj",
+    "issue_complexity": "SIMPLE",
+    "id": 8
+  },
+  {
+    "pair_id": 36090,
+    "customer_text": "@AppleSupport I recently deleted some emails on my iCloud &amp; I expected it to be in the Trash... but upon checking it got permanently deleted",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hello. We are here to help. What type of device are you using?",
+    "issue_complexity": "SIMPLE",
+    "id": 9
+  },
+  {
+    "pair_id": 268231,
+    "customer_text": "@AppleSupport PLEASE HALP! 10.13 supplemental update bricked ext dual monitors on mid-2105 retina mbp. Any fix? Google is not helping \ud83d\udca9",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer We're here for you! Is High Sierra not detecting the external monitors?",
+    "issue_complexity": "EDGE_CASE",
+    "id": 10
+  },
+  {
+    "pair_id": 764,
+    "customer_text": "After update #ios1103 no spotify on my lock screen?@AppleSupport",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for reaching out to us. Are you experiencing the missing app after restating your device?",
+    "issue_complexity": "SIMPLE",
+    "id": 11
+  },
+  {
+    "pair_id": 26717,
+    "customer_text": "Hey @customer is this covered under warrantee? Gonna take 40 minutes for a tech to see it at the AppleStore near me. https://t.co/ttBsLJJbQa",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Are you currently in an Apple Store? Let's meet up in DM to discuss our options.",
+    "issue_complexity": "SIMPLE",
+    "id": 12
+  },
+  {
+    "pair_id": 87141,
+    "customer_text": "@AppleSupport these battery issues are unacceptable! What\u2019s going on ??",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HIGH_ANGER_CHURN",
+    "reference_reply": "@customer We'd like to help if you're experiencing issues with your battery. Which device is this happening with? Let us know in DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 13
+  },
+  {
+    "pair_id": 87166,
+    "customer_text": "@AppleSupport Where I live I barely have service, so it says \u201cno service\u201d but I usually send texts through WiFi &amp; it still doesn\u2019t work. But now it\u2019s working. Why is that?",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer Thanks for clarifying this. When you see \"No Service\" it means your iPhone can't connect to your cellular providers network. You should have the option to send and receive iMessages via Wi-Fi if you don't have access to the cellular network.",
+    "issue_complexity": "MODERATE",
+    "id": 14
+  },
+  {
+    "pair_id": 241327,
+    "customer_text": "Hey @AppleSupport why after updating my iPhone to this new update that my phone restarts,has no service, and is slower than over \ud83d\ude44",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer This isn't what we expect to happen with your iPhone. Send us a DM letting us know which specific iOS version is installed: https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 15
+  },
+  {
+    "pair_id": 4902,
+    "customer_text": "@AppleSupport @customer I have and my battery life has become even worse",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's look into this further in DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 16
+  },
+  {
+    "pair_id": 23101,
+    "customer_text": "@AppleSupport And by the way, since iOS 11, Minecraft doesn\u2019t work if I\u2019m on the wi-fi so I cannot play with my son anymore. I see the logo and a white screen forever. If I desactivate the wi-if, the game open normally.",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer OK! Thank you for those details. So we can take a closer look, please let us know in DM if you have updates available for either app in the App Store. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 17
+  },
+  {
+    "pair_id": 701,
+    "customer_text": "@AppleSupport Tried resetting my settings .. restarting my phone .. all that",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's go to DM for the next steps. DM us here: https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 18
+  },
+  {
+    "pair_id": 101303,
+    "customer_text": "@AppleSupport how do I go about raising a high level complaint please? 4 senior techs couldn\u2019t help fix my problem, now my e mails are being unanswered, want a refund for a product that\u2019s not fit for purpose, have tried everything to fix, thanks.",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We'd be happy to look into this with you. DM us using the link below and we'll go from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 19
+  },
+  {
+    "pair_id": 1774,
+    "customer_text": "@AppleSupport iPhone 6, yes ios11. Checked for updates, none available. I\u2019ve swiped up to close the app several times and I\u2019ve restarted it 2x",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer To make sure, is iOS 11.1 showing here: Settings &gt; General &gt; About &gt; Version? Please DM us the answer here: https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 20
+  },
+  {
+    "pair_id": 1760,
+    "customer_text": "iOS 11 is killing my battery @customer. Fix it.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We're here to help. Which exact iOS version is your device running? This info can be found under Settings &gt; General &gt; About.",
+    "issue_complexity": "SIMPLE",
+    "id": 21
+  },
+  {
+    "pair_id": 2649,
+    "customer_text": "@customer really needs to fix this update. My phone has never been slower, for real.",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We're here to help with any issues you may having with performance. Let us know the exact iOS version to get started.",
+    "issue_complexity": "SIMPLE",
+    "id": 22
+  },
+  {
+    "pair_id": 31934,
+    "customer_text": "So at midnight my phone just went blank, spun the wheel,and asked me to enter my passcode ...wtf @AppleSupport since os 11 this randomly :(",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's take a look at this further for you. Reach out to us in DM with more information. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 23
+  },
+  {
+    "pair_id": 15720,
+    "customer_text": "6 years later I still can\u2019t access Contacts on iCloud, what do we need to do to finally get this fixed, @AppleSupport? //cc @customer https://t.co/EP9KWcig3M",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer You should be able to access your iCloud contacts on the web. DM us, and we'll see what we can do. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 24
+  },
+  {
+    "pair_id": 164229,
+    "customer_text": "@AppleSupport what wrong with Apple? iOS 11 has really bricked my iPhone 6... 10 year anniy #AppleEnding",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer We'd like to work with you and your iPhone to get things resolved. Can you tell us what's happening? You can reach us in DM at the link below. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 25
+  },
+  {
+    "pair_id": 6656,
+    "customer_text": "@AppleSupport My wife made the mistake of updating to 11. How can we revert back? Her password keeper app is now dead. She can't access her passwords.",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer You won't be able to revert the system to pre-iOS 11 but we can look into the issues. DM us and we'll get started. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 26
+  },
+  {
+    "pair_id": 712,
+    "customer_text": "Hey @AppleSupport and anyone else who upgraded to ios11.1, are y\u2019all having issues with capital \u201cI\ufe0f\u201d in the Mail app? As it puts in \u201cA\u201d?",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hey, let's work together to figure out what's going on. Meet us in DM and we'll continue from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 27
+  },
+  {
+    "pair_id": 36630,
+    "customer_text": "@AppleSupport I just sent a dm about an accident on iTunes I need help removing the payment please.",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer This article can help:https://t.co/Y0YoIRcZa7 If you run into issues, reach out to iTunes billing here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "SIMPLE",
+    "id": 28
+  },
+  {
+    "pair_id": 33407,
+    "customer_text": "@customer @customer Yes, after the update I have to charge it several times a day. Irritating!",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd love to help you with this. Which iOS version did you recently install? Was it iOS 11.1?",
+    "issue_complexity": "SIMPLE",
+    "id": 29
+  },
+  {
+    "pair_id": 11138,
+    "customer_text": "@AppleSupport I get prompted for a system administrator password on a MBP MacOS but there is no system administrator account I\u2019m aware of!! https://t.co/M1DbEkDzaS",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's take a closer look together. Which macOS version is installed currently? Where does this screen come up on your Mac?",
+    "issue_complexity": "SIMPLE",
+    "id": 30
+  },
+  {
+    "pair_id": 23121,
+    "customer_text": "@AppleSupport you guys are terrible back in October you said you\u2019d send me something so I could send in my AirPods for repair since they didn\u2019t work when I bought them. You never sent them to me at fort sill. Thanks!",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We are happy to help. Please DM us and we will continue from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 31
+  },
+  {
+    "pair_id": 260432,
+    "customer_text": "Dear @AppleSupport #ios11 bricked my iphone7 - twice. Impossible to get back to 10... THANK YOU - NOT! #plannedobsolescence @customer",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer Hey there. We're here for you. Send us a DM telling us more about what's happening with your iPhone. https://t.co/GDrqU2kzhr",
+    "issue_complexity": "EDGE_CASE",
+    "id": 32
+  },
+  {
+    "pair_id": 35260,
+    "customer_text": "@AppleSupport I got refunded for an in app purchase on Monday &amp; got a conformation email, but there\u2019s no sign of it in my account yet...",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer Hey there! Depending on your bank, it can take 3-5 business days to reflect in your account. We hope this helps.",
+    "issue_complexity": "MODERATE",
+    "id": 33
+  },
+  {
+    "pair_id": 2636,
+    "customer_text": "@AppleSupport ...cost for sending in for diagnosing a problem if it's out of warranty?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We can help. Let\u2019s start with the following steps to see if we can save you a trip in for service: https://t.co/RqWW0duJ0U",
+    "issue_complexity": "SIMPLE",
+    "id": 34
+  },
+  {
+    "pair_id": 94890,
+    "customer_text": "I got my phone fixed 2 weeks ago and I just dropped my phone with a case on it ON CARPET from at MOST four feet, and my screen shattered.... @AppleSupport how?",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer We're sorry that this happened, so let us help you get it taken care of. DM us so we can better assist you: https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 35
+  },
+  {
+    "pair_id": 2643,
+    "customer_text": "@customer when will the bug in the calendar app be fixed? I upgraded to iOS 11.1 and it still crashes when iOS 11.03",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help. What is going on with the app?",
+    "issue_complexity": "SIMPLE",
+    "id": 36
+  },
+  {
+    "pair_id": 36030,
+    "customer_text": "@AppleSupport Upgraded to #macOS #HighSierra - noticed that my iMessages/SMS are coming in out of order. Appear fine on my iPhone. Thoughts?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's work together to find the best solution. To clarify, have you tried quitting the Messages app and restarting?",
+    "issue_complexity": "SIMPLE",
+    "id": 37
+  },
+  {
+    "pair_id": 4904,
+    "customer_text": "@AppleSupport The \u2018Overlapping url over TIME on Free WiFi hotspots\u2019 remains. v11.0.3. Not a WiFi problem; two different hotspots shown. https://t.co/81ifcrDUeS",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to have you backup and update your iPhone to iOS 11.1 and let us know if that helps: https://t.co/ahjigcvFRG",
+    "issue_complexity": "SIMPLE",
+    "id": 38
+  },
+  {
+    "pair_id": 3762,
+    "customer_text": "not only does my phone keep freezing but when i screenshot things it turns out white... really not liking this iphone 8 plus @AppleSupport",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's look at this together. Are you updated to iOS 11.1?",
+    "issue_complexity": "SIMPLE",
+    "id": 39
+  },
+  {
+    "pair_id": 33352,
+    "customer_text": "#iOS11.1 is taking iPhones into consistent boot loops !! It remains for a couple of hours boot looping over and over then it gets back on again. This happened since the betas. I thought it's a bug but even now with the official 11.1 it happened. @AppleSupport @customer https://t.co/Q5vk9E0I0W",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer Let's get this resolved. Are you still experiencing this issue? Reply in DM to get started. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 40
+  },
+  {
+    "pair_id": 2626,
+    "customer_text": "Question- @customer @customer my iPhone6 dies very quick (have to charge it 3 times a day) my iPhone5 battery was faulty. Could this be the same?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We know how important your battery is &amp; we'll be happy to help. Which iOS version are you using? Also, when did this issue begin?",
+    "issue_complexity": "SIMPLE",
+    "id": 41
+  },
+  {
+    "pair_id": 1790,
+    "customer_text": "why won\u2019t my apps fuccin download or update @AppleSupport",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Apps are important and we want you to get back to enjoying them. Which model do you have? Is iOS 11.1 installed on it?",
+    "issue_complexity": "SIMPLE",
+    "id": 42
+  },
+  {
+    "pair_id": 25269,
+    "customer_text": "my phone died and the little connect charger sign came up and when i got it turned back on it said my battery was half full that\u2019s so cute @customer",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd be happy to look into why your iPhone turned off and showed that symbol when it still had battery. Which iPhone and iOS version are you using? You can go to Settings &gt; General &gt; About &gt; Version to find the version.",
+    "issue_complexity": "SIMPLE",
+    "id": 43
+  },
+  {
+    "pair_id": 43357,
+    "customer_text": "locked out of my apple ID bcuz my old phone broke &amp; i had 2 factor authentication on , no one should ever use tht shit @customer",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer Here's a great article to help you get back into your Apple ID: https://t.co/nXAGZj0EE7",
+    "issue_complexity": "EDGE_CASE",
+    "id": 44
+  },
+  {
+    "pair_id": 38208,
+    "customer_text": "@AppleSupport And when is the summer free is going to be released?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We\u2019re also excited for the iPhone X! You can find out more information about available models here: https://t.co/yl9mQrnFWP",
+    "issue_complexity": "SIMPLE",
+    "id": 45
+  },
+  {
+    "pair_id": 35974,
+    "customer_text": "@AppleSupport You guys over charged me on iTunes @AppleSupport and I want my money back I\u2019m really upset",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We completely understand and want to help. Please reach out to our iTunes Support team directly here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "MODERATE",
+    "id": 46
+  },
+  {
+    "pair_id": 2641,
+    "customer_text": "@AppleSupport still no reliable Bluetooth on my iPhone 8+.",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for reaching out. DM which Bluetooth device you are trying to connect to so we can help. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 47
+  },
+  {
+    "pair_id": 41572,
+    "customer_text": "@AppleSupport good morning from PR when will u be selling Carrier unlocked iPhone X? Thanks \ud83d\ude4f",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer We\u2019d like to get you in touch with our Apple Online Store team for assistance. Reach out here: https://t.co/RmFSlCBcIE",
+    "issue_complexity": "EDGE_CASE",
+    "id": 48
+  },
+  {
+    "pair_id": 13587,
+    "customer_text": "Why do I need a sim card when I\u2019m joined to the WiFi? I\u2019m only using this phone to test websites. @AppleSupport https://t.co/xdINQXPvEX",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer You'll need to insert a SIM and activate the iPhone, once that's done you can remove the SIM and use the iPhone on Wi-Fi.",
+    "issue_complexity": "SIMPLE",
+    "id": 49
+  },
+  {
+    "pair_id": 90558,
+    "customer_text": "@AppleSupport Help @AppleSupport ...just updated to iOS 11.2 and STILL this scam e-mail will not move to junk or delete or go away! It\u2019s driving me crazy! HELP!",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HIGH_ANGER_CHURN",
+    "reference_reply": "@customer We're happy to look into this with you. What kind of email account are you having this issue with?",
+    "issue_complexity": "EDGE_CASE",
+    "id": 50
+  },
+  {
+    "pair_id": 732,
+    "customer_text": "@AppleSupport I\u2019ve got a screenshot saying my #iPhoneX is reserved for the 3rd then an email saying it\u2019s the 18th... what happened?",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Go ahead and send us a DM please. Let us know the country you're in.",
+    "issue_complexity": "SIMPLE",
+    "id": 51
+  },
+  {
+    "pair_id": 34623,
+    "customer_text": "@AppleSupport Is there a way to merge two AppleID\u2019s, so I can use all bought items in one ID and delete the other?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Great question! Our account security team is best suited to help you. You can reach them directly here: https://t.co/UJm15vmMM2",
+    "issue_complexity": "SIMPLE",
+    "id": 52
+  },
+  {
+    "pair_id": 4914,
+    "customer_text": "Don\u2019t complain a lot about @customer but when battery iphone goes down 50% after using your phone for 30 minutes ..... Problems since update 11",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 53
+  },
+  {
+    "pair_id": 9839,
+    "customer_text": "@AppleSupport mi iPhone no se puede conectar a la red wifi privadas pero si a las free, que hago \ud83d\ude22",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We offer support via Twitter in English. Get help in Spanish here: https://t.co/IBIY3vMgPj or join https://t.co/OczyRx7IOs",
+    "issue_complexity": "SIMPLE",
+    "id": 54
+  },
+  {
+    "pair_id": 42654,
+    "customer_text": "@AppleSupport Hey Apple! Having issues with my ID and already changed my password. Trying to update my computer but says ID is disabled?",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer We can help! Check out this article for guidance with your Apple ID: https://t.co/HH37urdbz9",
+    "issue_complexity": "EDGE_CASE",
+    "id": 55
+  },
+  {
+    "pair_id": 11142,
+    "customer_text": "love how my computer charger just stopped working for literally no reason at all. thanks @customer you\u2019ve really done it for me this time, sweetie",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to investigate with you. Send us a DM and we can troubleshoot more from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 56
+  },
+  {
+    "pair_id": 38644,
+    "customer_text": "@AppleSupport my iphone 7 back up would not restore onto my X today. Lost all my text message history and apps as I had to set up from new. Any way I can get them back?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Congratulations on the iPhone X! We know how important backups are &amp; we'll do all we can to help. First, what happened when you attempted to set up your new iPhone with the backup? Is your iPhone X on the same iOS version your iPhone 7 was when the backup was made?",
+    "issue_complexity": "SIMPLE",
+    "id": 57
+  },
+  {
+    "pair_id": 13948,
+    "customer_text": "@AppleSupport I have updated my WatchOS but cannot stream the radio on LTE (@customer) . Wi Fi (both tethered and direct from watch) works",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer You're in the right place for help. Let us know in a DM if the issue started randomly or since you first setup the Watch. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 58
+  },
+  {
+    "pair_id": 90652,
+    "customer_text": "@AppleSupport excuse me, I'm got a refund confirmation email but nothing happened. Do I have to do anythings?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer Thanks for reaching out to us about your refund! To clarify, was this a refund for a purchase in the iTunes Store? Or was this a product purchase?",
+    "issue_complexity": "MODERATE",
+    "id": 59
+  },
+  {
+    "pair_id": 734,
+    "customer_text": "Thank you @AppleSupport I updated my phone and now it is even slower and barely works. Thank you for ruining my phone.\ud83d\ude24",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help, but we'll need more details. What's happening on your device and which model is it? Do you have iOS 11.1?",
+    "issue_complexity": "SIMPLE",
+    "id": 60
+  },
+  {
+    "pair_id": 34701,
+    "customer_text": "@customer My Q was: How was the delivery date in the cart 2 wks earlier than what\u2019s on my receipt? #ServiceRecovery #SupplyChain #1standlastpreorder",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Our Online Store team is best suited to help you with your order. You can reach them here: https://t.co/8yjRd1Xo0i",
+    "issue_complexity": "SIMPLE",
+    "id": 61
+  },
+  {
+    "pair_id": 1756,
+    "customer_text": "@AppleSupport I\ufe0f just updated it and it\u2019s still coming up https://t.co/22RZsQyTbh",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's dig into this further with you. DM us and we'll continue there.",
+    "issue_complexity": "SIMPLE",
+    "id": 62
+  },
+  {
+    "pair_id": 23083,
+    "customer_text": "@AppleSupport I have tried it on different WiFi and cell data. It seems to not work. Then quite some time after I have tired to download it will pop up multiple times to allow it to download then later it downloads out of no where. So it\u2019s strange.",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We definitely understand where you're coming from. Let's take a deeper look into this. Send us a DM and we'll get started. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 63
+  },
+  {
+    "pair_id": 18870,
+    "customer_text": "@AppleSupport the screen on our iPad Pro has stopped working \ud83d\ude14. I've read a few articles about weak screens on some models - is there anywhere I can check the model number, or will it be a \u00a3400 repair bill? Thanks",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thank you for reaching out to us. We'd be happy to try everything possible to provide the best support options. First, let's work as a team as we gather more information. DM us if you noticed any changes before the screen went black. What iOS is the device running? https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 64
+  },
+  {
+    "pair_id": 6482,
+    "customer_text": "Hello @customer @AppleSupport what\u2019s happening to my screen https://t.co/GTNXT4VoKd",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd love to take a look into this concern. Is the screen stuck this way have you restarted it? Send us a DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 65
+  },
+  {
+    "pair_id": 4899,
+    "customer_text": "Please fix the battery issues in Ios 11! @AppleSupport @customer",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to make sure you have a working battery. Have you had a chance to update to the latest 11.1?",
+    "issue_complexity": "SIMPLE",
+    "id": 66
+  },
+  {
+    "pair_id": 9179,
+    "customer_text": "@AppleSupport I bought an iTunes gift card worth \u00a315 a week ago, and the email still hasn\u2019t come into my inbox to tell me the code. Helpppp",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We're here for you. You'll need to contact our iTunes Store group for help with iTunes codes: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "SIMPLE",
+    "id": 67
+  },
+  {
+    "pair_id": 233954,
+    "customer_text": "@AppleSupport the price shown is 690 but was on offer for under 300 Taking a screenshot accidently bought it.refund. email support is high https://t.co/XbdpIG3kPx",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer For further assistance with this issue, we'd recommend reaching out to our experts here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "MODERATE",
+    "id": 68
+  },
+  {
+    "pair_id": 46581,
+    "customer_text": "@AppleSupport hello how can I check if my phone is locked to a network? I'm going abroad and want to put in a different sim",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer Hi there. Your cellular provider is the best place to start. You can learn more here: https://t.co/apt0gLeQET",
+    "issue_complexity": "EDGE_CASE",
+    "id": 69
+  },
+  {
+    "pair_id": 243318,
+    "customer_text": "Been up for an hour and have 60% batter wtf #iOS11 sweet scam u got here where I HAVE To buy your next phone @customer",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HIGH_ANGER_CHURN",
+    "reference_reply": "@customer That's never the experience we want you to have. We'll be happy to look into this with you. Which iPhone are you using?",
+    "issue_complexity": "EDGE_CASE",
+    "id": 70
+  },
+  {
+    "pair_id": 244208,
+    "customer_text": "Turnes bluetooth off yet it autoenabled to connect to the car. Unacceptable, off is OFF. #iOS11 @customer",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HIGH_ANGER_CHURN",
+    "reference_reply": "@customer We'd love to help. The Control Center Bluetooth button is changed in iOS 11. Here's more information: https://t.co/G7BHuQnDS6",
+    "issue_complexity": "EDGE_CASE",
+    "id": 71
+  },
+  {
+    "pair_id": 53010,
+    "customer_text": "@AppleSupport It will play but can\u2019t be controlled from locked screen or earphones. Only works half the time",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer Does this occur with all apps or specific ones? Feel free to let us know via DM, as well as your exact iOS version: https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 72
+  },
+  {
+    "pair_id": 1788,
+    "customer_text": "@AppleSupport No I had 11.0.3 but now it says 11.1 update so ima go ahead and do that",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Please keep us posted afterwards.",
+    "issue_complexity": "SIMPLE",
+    "id": 73
+  },
+  {
+    "pair_id": 34615,
+    "customer_text": "@customer @AppleSupport @customer his new ios 11.0 I have to restart my phone at least four times a day because it is blocked by everything",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer We want to help get your iPhone working properly. Which exact iOS version and iPhone are you using?",
+    "issue_complexity": "EDGE_CASE",
+    "id": 74
+  },
+  {
+    "pair_id": 8549,
+    "customer_text": "@AppleSupport ya.lately my screen was disfunction for touch after its been restart. i couldnt enter passcode yet homebutton still figureout my fingerprint",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer For security, the passcode is always required even if you have Touch ID turned on. Are you still having touch screen issues?",
+    "issue_complexity": "SIMPLE",
+    "id": 75
+  },
+  {
+    "pair_id": 2653,
+    "customer_text": "@AppleSupport newest version of iOS and iPhone 7",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Since we just released iOS 11.1 today, can you clarify which exact version you have installed?",
+    "issue_complexity": "SIMPLE",
+    "id": 76
+  },
+  {
+    "pair_id": 151473,
+    "customer_text": "@AppleSupport Apple Music hasn\u2019t been letting me download songs, add songs to playlists or create new playlist for a few weeks now - how do I resolve this? I pay \u00a39.99 a month so I\u2019d expect a refund this month",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We\u2019ll be happy to help with Apple Music. To start, send us a DM confirming which software version you\u2019re using. https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 77
+  },
+  {
+    "pair_id": 35278,
+    "customer_text": "Got burned and scarred with my magsafe charger and Apple didn't give a shit, so I'm switching to Microsoft. @AppleSupport @customer https://t.co/GivRMgiSWk",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to look into this with you. Send us a DM letting us know more about what happened. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 78
+  },
+  {
+    "pair_id": 164235,
+    "customer_text": "@AppleSupport Iphone 5 must be the best iPhone ever made. I am very disappointed with iPhone 6 and 6plus especially when they develop no service, searching network problems that can't be fixed, very disappointed with iPhones",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer We understand the importance of being able to have an excellent signal on your phone. We'll do everything that we can to get this sorted. Let's meet in DM here: https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 79
+  },
+  {
+    "pair_id": 2609,
+    "customer_text": "@AppleSupport $100 billion says that solves my problem? I\u2019m on 11.0.3 currently. Hold please.",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let us know and we'll continue from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 80
+  },
+  {
+    "pair_id": 22987,
+    "customer_text": "@AppleSupport Trying to download an app to a family member's phone that I purchased as the family group organizer. Being asked to purchase it, but I don't want to be charged again. Suggestions? https://t.co/Y730eW0nZe",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We can help. As long as this app supports Family Sharing, you'll be able to download it by following the steps in our article. Give them a shot, and let us know if this continues: https://t.co/IotWsTk0Px https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 81
+  },
+  {
+    "pair_id": 2621,
+    "customer_text": "@AppleSupport But this does not show the music stored on my phone like it did in os3. I do not want to store music on my phone.",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We certainly want to take a closer look into this issue. Select the following link to join us in a DM and we'll go from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 82
+  },
+  {
+    "pair_id": 125037,
+    "customer_text": "@AppleSupport why is #MegaBackup considered an application from a verified developer? It is pure malware. Any why are you charging $1,000 to help fix the problem? This seems like a #scam.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HIGH_ANGER_CHURN",
+    "reference_reply": "@customer Let's help take a look. Follow up with us in DM. Tell us more about what you're experiencing regarding that app there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 83
+  },
+  {
+    "pair_id": 5820,
+    "customer_text": "Dear @AppleSupport this new update sucks ,I have too many problems with my phone now ! Blurry screen , black screen , frozen phone !",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Getting the expected performance from your iPhone is very important to us. Let us know the exact iOS version to get started.",
+    "issue_complexity": "SIMPLE",
+    "id": 84
+  },
+  {
+    "pair_id": 9166,
+    "customer_text": "@customer @customer my 7+ refuses to stay on WiFi calling ever since ios 11 and im seriously so over the customer service -___-",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to help you. DM us, and we can look into what's going on with Wi-Fi calling on your iPhone. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 85
+  },
+  {
+    "pair_id": 34658,
+    "customer_text": "@AppleSupport I thought this update would fix the problem with appstore/itunes payments. I cant open some apps , i cant update any and i cant download any",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd be happy to look into what's going on. Which device and iOS version are you using?",
+    "issue_complexity": "SIMPLE",
+    "id": 86
+  },
+  {
+    "pair_id": 8418,
+    "customer_text": "@AppleSupport Chat doesn\u2019t seem to work in Germany. On the order page I cannot leave comments \u2026",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer If you are unable to access these resources, let's get you connected with our local AppleCare Support team to get you to our Online Support group: https://t.co/zDY8Np0kg6",
+    "issue_complexity": "SIMPLE",
+    "id": 87
+  },
+  {
+    "pair_id": 145192,
+    "customer_text": "My not so old #iphone6s has almost become a brick after the updates! Why @customer ? Why would you do this to loyal customers. I will but the #iphoneX just don't shove it down my throat like this :-(",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer We'll do all we can to assist. Can you give us some details about your iPhone 6S? Is it updated all the way to iOS 11.1.2? What specific issues are making it hard to use?",
+    "issue_complexity": "EDGE_CASE",
+    "id": 88
+  },
+  {
+    "pair_id": 31872,
+    "customer_text": "My iPhone just signed itself out of iCloud and I lost all of my synced contacts when I tried to sign back in. @AppleSupport",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Are these contacts on the iCloud website? Check here from a computer and let us know: https://t.co/tmRhWEkIq4",
+    "issue_complexity": "SIMPLE",
+    "id": 89
+  },
+  {
+    "pair_id": 31882,
+    "customer_text": "@AppleSupport I can\u2019t download apps from the app store.",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let\u2019s work together to get your apps downloading again. Are you downloading updates or new apps? Any messages when downloading?",
+    "issue_complexity": "SIMPLE",
+    "id": 90
+  },
+  {
+    "pair_id": 6933,
+    "customer_text": "@customer after the new apple updates: the battery life is really go fast and the WiFi is always on! @AppleSupport #newappleupdates",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd love to help. Let's work on this together in DM. Start by letting us know what kind of device you are using. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 91
+  },
+  {
+    "pair_id": 2634,
+    "customer_text": "@customer Just updated iOS on iPhone7, now iCloud backup greyed out, cannot be turned on, says \u201cLast Backup Never\u201d",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Check out this link: https://t.co/Lr8zUtw9ls Send us a DM if it doesn't help. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 92
+  },
+  {
+    "pair_id": 41710,
+    "customer_text": "@AppleSupport just upgraded to 11.1, and had 50% battery drain on iPhone 6 during my bike ride to work (1 hour). This is unacceptable",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HIGH_ANGER_CHURN",
+    "reference_reply": "@customer We\u2019d love to help with your battery life. To start, please send us a DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 93
+  },
+  {
+    "pair_id": 18834,
+    "customer_text": "@customer @AppleSupport Ur customer support wants me to speak to another repair center to see if they\u2019ll quote a lesser price! I mean, REALLY!! Gotta be kidding me. I used to swear by Apple Customer Service. Is this the best that you guys can do now?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We know how much we rely on our iPad from surfing the internet to sending emails to watching movies. We'll be happy to look into your situation. Can you DM us if the device turns on at all? Does it boot to an Apple logo? https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 94
+  },
+  {
+    "pair_id": 2658,
+    "customer_text": "Is anyone else having problems with there iPhone 7 saying no service? @customer @customer",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer We want to help with this. Let's start troubleshooting by trying the steps here: https://t.co/5KootZbxj1",
+    "issue_complexity": "MODERATE",
+    "id": 95
+  },
+  {
+    "pair_id": 2633,
+    "customer_text": "@AppleSupport iPhone 7+, iOS 11.1",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thank you very much! Send us a DM to let us know if your speaker doesn't work on calls, or if other apps are affected as well. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 96
+  },
+  {
+    "pair_id": 450341,
+    "customer_text": "@AppleSupport I got an email saying I need to reply with my full delivery address yet the email was from __email__??",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer Let's take a look at this email in DM. Follow us there using the link below: https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 97
+  },
+  {
+    "pair_id": 766,
+    "customer_text": "I just need @customer to do something about the battery life because it sucks ass",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to help you get your battery life back on track. Please DM and we'll look at it together. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 98
+  },
+  {
+    "pair_id": 86982,
+    "customer_text": "It\u2019s unbelievable that @customer, @AppleSupport still haven\u2019t sorted out the battery issues on iOS 11. I almost don\u2019t want to use my phone because of how quickly it drains out. Unacceptable.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HIGH_ANGER_CHURN",
+    "reference_reply": "@customer We're always happy to help. What iOS device are you currently using? Let us know in Direct Message and we'll take a look. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 99
+  },
+  {
+    "pair_id": 14864,
+    "customer_text": "@AppleSupport I\u2019ve tried to do the upgrade program online and can\u2019t. t-mobile as a carrier and no apple store closer then 3hours away. Help",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 100
+  },
+  {
+    "pair_id": 41555,
+    "customer_text": "@AppleSupport locked out of my iPad. Followed instructions but it hasn\u2019t worked. Please help. Also I want to turn this feature off",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer Let us know exactly what you see on your display currently. This will help us determine the best next steps to assist.",
+    "issue_complexity": "EDGE_CASE",
+    "id": 101
+  },
+  {
+    "pair_id": 40518,
+    "customer_text": "@AppleSupport hi so I got an email my account was locked. But I\u2019m pretty sure it was a fake.",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer We'd like to take a closer look at this with you. Let's continue our conversation via DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 102
+  },
+  {
+    "pair_id": 38205,
+    "customer_text": "@AppleSupport You guys over charged me on music I bought on iTunes and I want my money back I\u2019m mad as hell",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We want to help. You can reach our iTunes support team here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "MODERATE",
+    "id": 103
+  },
+  {
+    "pair_id": 34625,
+    "customer_text": "@AppleSupport charging my phone but it\u2019s reducing the battery charge?? Help?!! https://t.co/Ssnoh9ayXN",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help you with this. Are you using the charging cable that came with your iPhone? Have you tried another cable?",
+    "issue_complexity": "SIMPLE",
+    "id": 104
+  },
+  {
+    "pair_id": 57487,
+    "customer_text": "@AppleSupport Hi, do you have french support ? I want to change my delivery address on an order placed Thanls",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer We'd be happy to get you pointed in the right direction. Could you DM us what country you are in? https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 105
+  },
+  {
+    "pair_id": 67417,
+    "customer_text": "@customer Why is it that i have been waiting for almost a month for a refund of a returned item i paid cash for in the first place? Where is my money?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We can assist you. Please DM us via the following link with the country in which you are located. https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 106
+  },
+  {
+    "pair_id": 25249,
+    "customer_text": "@AppleSupport I bought this phone on Friday and restored from a back up, it looks as if everything\u2019s restored but it\u2019s telling me it hasn\u2019t here https://t.co/FiWBGeOtwh",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for the screenshot, that really helps. Let's meet in DM and we can continue there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 107
+  },
+  {
+    "pair_id": 61321,
+    "customer_text": "@AppleSupport I accidentally bought something is there anyway I can get a refund",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We're happy to help. Take a look here: https://t.co/A5QhKRZhQQ",
+    "issue_complexity": "MODERATE",
+    "id": 108
+  },
+  {
+    "pair_id": 35224,
+    "customer_text": "@customer @customer I\u2019m also having issues with my iPad. The battery has suddenly decided to lose 75% from a full charge",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to assist you with your iPad too. Join us in DM at the link below to get started. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 109
+  },
+  {
+    "pair_id": 2617,
+    "customer_text": "@AppleSupport Yes, after the update. I Phone 7",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Got it. Does this happen while using any particular App or feature? Let us know via a DM. We\u2019ll keep moving forward from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 110
+  },
+  {
+    "pair_id": 145185,
+    "customer_text": "can i refund an album i bought 3 years ago? @customer @customer @AppleSupport",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We'd want to get you in touch with our iTunes Store support here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "MODERATE",
+    "id": 111
+  },
+  {
+    "pair_id": 149946,
+    "customer_text": "You charged me for Apple Music but didn\u2019t even tell me my trial was over. I want a refund @AppleSupport",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer The Apple Music plan automatically renews after the free trial period. If you'd like to cancel the subscription, and request a credit, you'll want to reach out to our iTunes Store support experts. Reach out to our iTunes Store experts here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "MODERATE",
+    "id": 112
+  },
+  {
+    "pair_id": 9157,
+    "customer_text": "@AppleSupport It\u2019s showing it\u2019s connected and the battery is decreasing.",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We are here for you. Let's take a look at this further for you. Reach out to us in DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 113
+  },
+  {
+    "pair_id": 9837,
+    "customer_text": "@AppleSupport updating xcode via appstore. 7-min remaining 6-hr ago. 1-min rem for over an hour. Why? My net bandwidth is good.",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help any way we can. Are other apps able to be downloaded on your device? Which model is it and which OS version?",
+    "issue_complexity": "SIMPLE",
+    "id": 114
+  },
+  {
+    "pair_id": 266505,
+    "customer_text": "iOS 11.0.1 bricked my phone and now I have to pay $350 to fix it?? Now i'm w/o a phone Thanks @AppleSupport @customer",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer We'd like to look into this with you. DM us some more details about what happened. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 115
+  },
+  {
+    "pair_id": 8307,
+    "customer_text": "@AppleSupport I don\u2019t know. I need the space though. How do I get rid of some snapshots",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Finder and Get Info windows don't include snapshots in their calculations so that's not the root cause. Let's meet within DM: https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 116
+  },
+  {
+    "pair_id": 31437,
+    "customer_text": "@AppleSupport Just used your \"chat\" portion on help, it won't let me chat with anyone. My apple ID has been very buggy",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer You can follow the steps listed in \"Cancel Order\" section to have this canceled: https://t.co/jr7MZtpSNY",
+    "issue_complexity": "SIMPLE",
+    "id": 117
+  },
+  {
+    "pair_id": 8556,
+    "customer_text": "@AppleSupport is that safe if we disable passcode for unlock iphone? i mean,is the fingerprint still worked out? i think dat would be enough",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to make sure we understand the issue. Are you wanting to disable the passcode and still use Touch ID?",
+    "issue_complexity": "SIMPLE",
+    "id": 118
+  },
+  {
+    "pair_id": 2683,
+    "customer_text": "@AppleSupport live photo keeps turning on in the camera even when it\u2019s set to stay off. Please fix in next update.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hey, we can work together to figure out a solution. Send us a DM and we'll continue from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 119
+  },
+  {
+    "pair_id": 31861,
+    "customer_text": "@AppleSupport Why can't I log into my icloud on my Iphone 7 plus? My phone updated, logged me out of everything and won't take new pw.",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help. Are you able to log into https://t.co/9bUADNIlYp successfully? Let us know in DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 120
+  },
+  {
+    "pair_id": 25425,
+    "customer_text": "@AppleSupport 11.1.2. I haven't tried it yet with my little Bluetooth sound bar at home but will soon.",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thank you. Please let us know. If the issue is only with CarPlay, your firmware may need to be updated. Please visit us here: https://t.co/tqjOBvBgl0 for more information.",
+    "issue_complexity": "SIMPLE",
+    "id": 121
+  },
+  {
+    "pair_id": 34588,
+    "customer_text": "After iPhone update, my battery dies quicker than it charges when using my sleep/alarm app. On 1% when my alarm woke me \ud83d\ude2e\ud83d\ude21 @AppleSupport",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Send us a DM and let us know what version of iOS 11 you're running. We'll go from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 122
+  },
+  {
+    "pair_id": 35242,
+    "customer_text": "@AppleSupport @customer @AppleSupport oh dear @customer still not co-oping with iCloud in ios11.1 really really poor show. #garageband",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer If you're still having troubles, be sure to follow up with our team that helps with GarageBand here:https://t.co/IBIY3vMgPj",
+    "issue_complexity": "SIMPLE",
+    "id": 123
+  },
+  {
+    "pair_id": 145229,
+    "customer_text": "@customer I broke my stupid remote\u2026shattered the glass on a 2 ft drop\u2026and then cut my hand on the glass. Thanks @customer :(",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer We want to make sure you get the best support for this issue. Let's meet in DM to get you to the right place to help. Reach out to us in DM with where you're located. (country)",
+    "issue_complexity": "MODERATE",
+    "id": 124
+  },
+  {
+    "pair_id": 32377,
+    "customer_text": "Hey @customer @AppleSupport, not sure you tested EVERYTHING when implementing the ability to switch #iCloud account emails! https://t.co/GebmTtpdCc",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer This is expected behavior. https://t.co/tmRhWEkIq4 emails cannot be changed, but you could use an alias: https://t.co/tewQI88gby",
+    "issue_complexity": "SIMPLE",
+    "id": 125
+  },
+  {
+    "pair_id": 18885,
+    "customer_text": "@AppleSupport my Apple Watch has been like this for 2 days any suggestions. Also tried to do a reboot but to no avail. https://t.co/06IgjQuApq",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for the photo, and for reaching out to us. We'll do all we can to get your Apple Watch up and running for you. We'd like a few details from you in order to assist. Please meet us in DM so we may ask some isolation questions, and resolve your issue. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 126
+  },
+  {
+    "pair_id": 1782,
+    "customer_text": "@customer if my words even mean a thing to you; I am an iPhone 7 owner and have updated to your latest software and now am having the most dropped calls in history and glitch\u2019s such as apps randomly opening and more ... #iHelp",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to help. Send us a DM letting us know if you are updated to iOS 11.1 https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 127
+  },
+  {
+    "pair_id": 33415,
+    "customer_text": "@AppleSupport is there some@serious problem in latest iOS upgrade. Many applications are getting disconnected if phine is locked #whtsapp",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer Send us a DM and let us know what version of iOS you're running. We'll go from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 128
+  },
+  {
+    "pair_id": 755,
+    "customer_text": "MY HOME BUTTON DOESN\u2019T WORK #IOS11 @AppleSupport",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let us help with your Home button. Did this issue start right after iOS 11? Which version of iOS 11 are you running?",
+    "issue_complexity": "SIMPLE",
+    "id": 129
+  },
+  {
+    "pair_id": 21154,
+    "customer_text": "Day 6 in the iTunes Lockout. I cannot get help or explanation. Cannot download apps, update them or play music on my iPhone. I bet some angry employee locked a thousand accounts and now won't pick up at 1-866-9703764 #BadApple @AppleSupport @customer",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer That is not the experience we want you to have. We'd be happy to look into this with you. Can you DM us what you are experiencing with your iTunes account? What do you currently see on the screen? Are you signed in to the account? We'll continue this in DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 130
+  },
+  {
+    "pair_id": 31481,
+    "customer_text": "@AppleSupport Help!! I need to update the payment method for my iPhone X pre-order. It won\u2019t let me do it online",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We're happy to help you with that. DM us the country you are located in so we can better assist you:",
+    "issue_complexity": "SIMPLE",
+    "id": 131
+  },
+  {
+    "pair_id": 25422,
+    "customer_text": "@AppleSupport Bluetooth connection iPhone X to Infiniti is terrible. Garbled and scratchy cutting in and out &gt;30% of time. Didn't happen W iPhone 6!!",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want you to be able to enjoy your iPhone X with your Bluetooth devices. We'll do all we can to help. To start, what iOS version is currently installed? Does this issue occur with any other Bluetooth devices that you connect to?",
+    "issue_complexity": "SIMPLE",
+    "id": 132
+  },
+  {
+    "pair_id": 9194,
+    "customer_text": "@AppleSupport I bought an iPhone 8 with AppleCare+. Wanting to return the iPhone 8. What happens with the AppleCare+?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for contacting us. We'd like to gather some info to help out. Let's meet in DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 133
+  },
+  {
+    "pair_id": 23078,
+    "customer_text": "@AppleSupport My MacPro is burning up while in sleep mode. Reliably returning to a computer thats been overheating for hours. Who pays when something burns out on a super expensive machine due to a glitch?! #Apple #MacPro",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer This is not an expected nor does it sound normal. We can understand your view on this and would like to take a closer look. Can you let us know where this heat seems originate on the Mac? Send us a DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 134
+  },
+  {
+    "pair_id": 11091,
+    "customer_text": "@customer @customer @AppleSupport Well it froze as I was ordering a pizza so I had to. And now it\u2019s already to 49%",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to offer our help. Please shoot us a DM and we'll explore the battery challenge. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 135
+  },
+  {
+    "pair_id": 5847,
+    "customer_text": "I updated to iOS 11 and my iPhone 6 stopped connecting to wi-fi. Already restored the phone and the network connections @AppleSupport",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We are here to help. So we can best isolate the cause, could you verify your exact iOS version? https://t.co/ZTw54HL4Rm",
+    "issue_complexity": "SIMPLE",
+    "id": 136
+  },
+  {
+    "pair_id": 8296,
+    "customer_text": "@AppleSupport Hello there i need help with the use of an administartors name and password on my imac",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hi! We're happy to help. Join us in DM with the macOS version installed on your iMac and more details about what's going on. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 137
+  },
+  {
+    "pair_id": 3768,
+    "customer_text": "@AppleSupport this is my top bar every time I open messages on my SE after updating to iOS 11.1 https://t.co/Lzge3qzc7w",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thank you for reaching out to us. Have you tried to restart the device? Let us know to get started.",
+    "issue_complexity": "SIMPLE",
+    "id": 138
+  },
+  {
+    "pair_id": 10675,
+    "customer_text": "@AppleSupport just updated Apple Watch to 4.1. Is ESPN radio etc only available in USA, can\u2019t get it on my watch in the UK",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to help you. That station may not be available. Availability of live stations varies depending on your location.",
+    "issue_complexity": "SIMPLE",
+    "id": 139
+  },
+  {
+    "pair_id": 5817,
+    "customer_text": "@AppleSupport I can\u2019t change lock screen anymore from \u2018wallpaper\u2019 in settings. How do I do it now?",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd be happy to help. Check out this link to for more information: https://t.co/hSnkM7JIIS",
+    "issue_complexity": "SIMPLE",
+    "id": 140
+  },
+  {
+    "pair_id": 2622,
+    "customer_text": "It\u2019s been a few days since @customer made me update my phone\u2019s operating system. Now constantly glitching, hmm \ud83e\udd14 I\u2019m shocked!",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hi there! iOS 11.1 was released earlier today containing some bug fixes. Let's back up and update: https://t.co/80YRnjDFDk",
+    "issue_complexity": "SIMPLE",
+    "id": 141
+  },
+  {
+    "pair_id": 14335,
+    "customer_text": "So over @customer &amp; their awful customer service. Locked out of iCloud for 2 weeks &amp; promised password recovery instructions that never came\ud83d\udd95\ud83c\udffd",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer The best way to verify your account &amp; assist with the Apple ID, is to get support at this link: https://t.co/UJm15vmMM2",
+    "issue_complexity": "EDGE_CASE",
+    "id": 142
+  },
+  {
+    "pair_id": 8434,
+    "customer_text": "@customer suck! Upgrade phone &amp; I lose my Apple ID. Can\u2019t get new id without old &amp; can\u2019t book Genius bar help appointment without ID!!! #stupid",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We're happy you reached out so we can find you the info you need. If you forgot your Apple ID, go to the Apple ID account page: https://t.co/ggVDoc1mU7 From here, click \"Forgot Apple ID or password?\" then click \"look it up.\" From here, follow the on screen prompts.",
+    "issue_complexity": "SIMPLE",
+    "id": 143
+  },
+  {
+    "pair_id": 4878,
+    "customer_text": "@AppleSupport I can\u2019t download songs. Progress icon keeps spinning. On both data + WiFi. Stream works though. Can\u2019t add songs to playlists. https://t.co/x7uUxSqO9u",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to help. Does restarting help at all? DM us which iOS version you're on and we'll continue support there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 144
+  },
+  {
+    "pair_id": 6916,
+    "customer_text": "@AppleSupport Yes, sorry i mean iOS 11, when I texting my keyboard it\u2019s very slow and my battery it consumes very fast.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Are you currently using Low Power Mode? If so, disable that from Settings &gt; Battery and restart. Let us know in DM if it helps. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 145
+  },
+  {
+    "pair_id": 38868,
+    "customer_text": "@customer @AppleSupport My iPad 2 has locked. Wrote to the M.D. and he did sod all. Gonna buy android from now. Suggest you all do the same",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer We'd like to help you out if we can. What do you mean your iPad 2 has locked? Are you getting an error message?",
+    "issue_complexity": "EDGE_CASE",
+    "id": 146
+  },
+  {
+    "pair_id": 90658,
+    "customer_text": "Can you sort an update to put back the option to turn off auto-brightness, @customer @AppleSupport. Burning my battery and my retina.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer That setting hasn't been removed. If you're using iOS 11, you can turn it off in Settings &gt; General &gt; Accessibility &gt; Display Accommodations.",
+    "issue_complexity": "MODERATE",
+    "id": 147
+  },
+  {
+    "pair_id": 162733,
+    "customer_text": "@AppleSupport Hi, I made a transaction twice by mistake, please refund. All details at the photo https://t.co/K3GxrVC3LM",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We can help out. You can use: https://t.co/tlZYM6JMKL Or we'd want to get you in touch with our iTunes Store support here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "MODERATE",
+    "id": 148
+  },
+  {
+    "pair_id": 31859,
+    "customer_text": "@AppleSupport hey this is the 2nd time I've seen a random $15 charge to my account from itunes on my card and I haven't gotten anything",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd want to get you in touch with our iTunes Store support here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "SIMPLE",
+    "id": 149
+  },
+  {
+    "pair_id": 3766,
+    "customer_text": "@AppleSupport I\u2019m no expert in battery life but 40% doesn\u2019t go to 7% in 5minutes",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We understand your concerns, and want to help. Which device is this happening on?",
+    "issue_complexity": "SIMPLE",
+    "id": 150
+  },
+  {
+    "pair_id": 263438,
+    "customer_text": "never had to do so many hard resets on a phone, ios 11 has essentially turned my phone into a brick can I have my money back @AppleSupport",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer Let us help. Can you tell us more details of what's happening? Also, the version the iOS 11 in Settings &gt; General &gt; About?",
+    "issue_complexity": "EDGE_CASE",
+    "id": 151
+  },
+  {
+    "pair_id": 34584,
+    "customer_text": "@AppleSupport The latest version of iTunes for Windows keeps asking for my password and sometimes gets stuck in a loop.",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to help. Please confirm the iTunes version number you have installed now to get started.",
+    "issue_complexity": "SIMPLE",
+    "id": 152
+  },
+  {
+    "pair_id": 12585,
+    "customer_text": "@AppleSupport What do you make of this? (Top left corner) I am a US customer, and I think my phone has been hacked. https://t.co/5JE0SUCx90",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer Let's look into this for you. Send us a DM with your current iOS version to get started. https://t.co/GDrqU22YpT",
+    "issue_complexity": "EDGE_CASE",
+    "id": 153
+  },
+  {
+    "pair_id": 8576,
+    "customer_text": "@AppleSupport since upgrade to High Sierra I see this screen each time my iMac reboots thus defeating automatic login I need. Help. https://t.co/z9trEHnGbP",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for reaching out to let us know about this. So we can look into this with you, please DM us here: https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 154
+  },
+  {
+    "pair_id": 38892,
+    "customer_text": "@AppleSupport @customer would I ever receive a txt saying my apple account had been locked and a link to a website to verify it? Seems odd!",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "SECURITY_LOCKOUT",
+    "reference_reply": "@customer We typically don't send texts. You can learn more about suspicious messages here: https://t.co/tHkFZyBtjO",
+    "issue_complexity": "EDGE_CASE",
+    "id": 155
+  },
+  {
+    "pair_id": 13952,
+    "customer_text": "@customer explain to me why my phone decides to stop working when you release new ones",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Please let us know what's happening with your iPhone. We're eager to offer our help and get things resolved.",
+    "issue_complexity": "SIMPLE",
+    "id": 156
+  },
+  {
+    "pair_id": 31930,
+    "customer_text": "@AppleSupport Can I pay for \uf8ff Care + online with an Apple Store gift card or do I have go into the store?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'll get you pointed in the right direction. Please DM us so we can go over all options. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 157
+  },
+  {
+    "pair_id": 32399,
+    "customer_text": "Hey @AppleSupport I heard I can change my Apple ID to my @customer email but when I try it says nope. What gives? Spent an hour signing out &amp; in.",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd be happy to provide you with some info. Start by taking a look at the following article: https://t.co/xuZEqdPMFW",
+    "issue_complexity": "SIMPLE",
+    "id": 158
+  },
+  {
+    "pair_id": 11654,
+    "customer_text": "@AppleSupport is my #IphoneX really going to ship between December 5-11? I preorder right when preordering open at 12:01",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thank you for reaching out. May we ask where you're located? Let us know in DM. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 159
+  },
+  {
+    "pair_id": 737,
+    "customer_text": "@AppleSupport I have the iPhone 6s Plus and just did the most recent update.",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer To make sure, is iOS 11.1 installed on it currently? Also, any steps tried so far? DM us here: https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 160
+  },
+  {
+    "pair_id": 103167,
+    "customer_text": "Hey @AppleSupport - Over the last few days my messages app on my iMac and MBA stopped syncing with my iMessages from my iOS devices. Any ideas on how to fix this problem? I've lost one of my favorite parts of #AppleSimplicity",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer We\u2019d love to help with your messages. To start, do you see your iMac and MacBook enabled if you tap Settings &gt; Messages &gt; Text Message Forwarding on your iPhone?",
+    "issue_complexity": "MODERATE",
+    "id": 161
+  },
+  {
+    "pair_id": 32402,
+    "customer_text": "@AppleSupport Yes. I read and did that. I get a message that says I cannot change my Apple ID to an email ending in @customer. Which is contrary to the document",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to take a closer look at this with you. Send us a DM and we'll meet up with you there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 162
+  },
+  {
+    "pair_id": 22989,
+    "customer_text": "More @customer My iPhone X makes a sounds when gently pressed on opposed corners, was told it was software (Apple Store), this isn't software, Please help!",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hello. We'd love to help with your concern, but we would need to gather some details on your description of the concern. Could you send us a DM and let us know the iOS version installed? Also, did it seem like this since first using the iPhone X? https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 163
+  },
+  {
+    "pair_id": 741,
+    "customer_text": "@AppleSupport iOS 11.0.3",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's check Settings &gt; General &gt; Software Update. iOS 11.1 was released earlier today. If you see it, please backup &amp; update.",
+    "issue_complexity": "SIMPLE",
+    "id": 164
+  },
+  {
+    "pair_id": 744,
+    "customer_text": "@AppleSupport I need the software update urgently. The battery lasts literally half a day \ud83d\ude4d\ud83c\udffc\ud83d\ude41@AppleSupport",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hi there! What type of device are we working with?",
+    "issue_complexity": "SIMPLE",
+    "id": 165
+  },
+  {
+    "pair_id": 1767,
+    "customer_text": "@AppleSupport it has, but not for some time now. i\u2019ve tried with two different apple ids but it\u2019s still not showing up on my phone",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for clarifying. Let's meet in DM so we can do more in-depth on this. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 166
+  },
+  {
+    "pair_id": 13195,
+    "customer_text": "\u00c9cran d\u2019iPhone cass\u00e9. Impossible \u00e0 connecter sur iTunes ... des astuces svp ? @AppleSupport",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We offer support via Twitter in English. Contact us for help in your preferred language here: https://t.co/IBIY3vMgPj",
+    "issue_complexity": "SIMPLE",
+    "id": 167
+  },
+  {
+    "pair_id": 23098,
+    "customer_text": "@AppleSupport, why do I keep getting charged over \u00a320 for anything I buy from iTunes? Bought an album for \u00a34.99 and got charged \u00a320.67. Same thing happened a couple of weeks ago to. Why?! https://t.co/0fIDOKovNP",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Our iTunes Store team would be happy to look into this with you. Reach out to them here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "SIMPLE",
+    "id": 168
+  },
+  {
+    "pair_id": 2681,
+    "customer_text": "@AppleSupport ios 11.0.3 on 6s. Cannot adjust alarm volume so waking up all in my house and neighbours despite ringer being set to minimum!",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd love to help with your alarm volume. Is the option to \"Change with Buttons\" disabled under Settings &gt; Sounds?",
+    "issue_complexity": "SIMPLE",
+    "id": 169
+  },
+  {
+    "pair_id": 2639,
+    "customer_text": "@AppleSupport Hi, I plugged an adapter straight into the transformer and it still didn't charger. The charger LED does not light up either.",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We certainly want to take a closer look into this. Select the following link to join us in a DM and we'll go from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 170
+  },
+  {
+    "pair_id": 31434,
+    "customer_text": "@customer trying to cancel an online order, each time I login i'm told I don't have access to the order.",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hello. Our Sales Support team will be happy to assist you with this issue here: https://t.co/RmFSlCBcIE",
+    "issue_complexity": "SIMPLE",
+    "id": 171
+  },
+  {
+    "pair_id": 161275,
+    "customer_text": "@AppleSupport my iPhone 7 Plus is constantly saying no service and has since around lunch time, my SIM card works in other phones but when I put other sims in my phone it still says no service so is obviously my phone and not my sim, what can I do?",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer Hey there, great job trying out other sim cards to isolate the problem. Were the other sims for your same carrier? Let's try some of the steps in this article like restarting your iPhone and checking for a carrier settings update: https://t.co/5KootZbxj1",
+    "issue_complexity": "MODERATE",
+    "id": 172
+  },
+  {
+    "pair_id": 2629,
+    "customer_text": "@AppleSupport iOS 11.1 it\u2019s been getting worse for a few months now",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Please meet with us in DM. We'd like to gather some additional details from you. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 173
+  },
+  {
+    "pair_id": 4907,
+    "customer_text": "@AppleSupport I've updated to iOS 11.1 just now. I shall check out these WiFi hotspots tomorrow and later in the week.",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Sounds good. Let us know the results in DM and we'll continue working with you there. Thanks again. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 174
+  },
+  {
+    "pair_id": 39661,
+    "customer_text": "PT1. @AppleSupport I pre-approved my iPhone X then ordered it at 301 am, your database is shipping the phone to a fake address due to a typo",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Thanks for reaching out. Let's get you in touch with an Apple Online Store Advisor at: https://t.co/8yjRd1Xo0i.",
+    "issue_complexity": "SIMPLE",
+    "id": 175
+  },
+  {
+    "pair_id": 14331,
+    "customer_text": "@customer I updated my iPhone and now the Bluetooth is constantly on. Why?",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Hi. With the iOS 11 update, it can be disabled in your settings. For more information, please visit: https://t.co/G7BHuQnDS6",
+    "issue_complexity": "SIMPLE",
+    "id": 176
+  },
+  {
+    "pair_id": 47993,
+    "customer_text": "@AppleSupport hi there, I need to inquire something regarding he refund of an item",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer For questions about refunds, our iTunes Store would be the best team to help. Reach out to them here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "MODERATE",
+    "id": 177
+  },
+  {
+    "pair_id": 3772,
+    "customer_text": "@AppleSupport iOS 11.1 - keyboard lag. \ud83e\udd28 https://t.co/TdIHT9L9dt",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'd like to take a look into that with you. Would you please join us in DM to get started? https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 178
+  },
+  {
+    "pair_id": 2679,
+    "customer_text": "@AppleSupport It\u2019s sorted. Thanks. iOS update needed a change and hard reboot",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We're glad to hear that's sorted out for you. Have a great day.",
+    "issue_complexity": "SIMPLE",
+    "id": 179
+  },
+  {
+    "pair_id": 8554,
+    "customer_text": "@AppleSupport ya.. i did that way like 3-4times for make my screen finally worked out. whats the causes anw? what tips to prevent it wont happen again?",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We wouldn't want to speculate into the cause, but please send us a DM so we can look into this further with you. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 180
+  },
+  {
+    "pair_id": 1777,
+    "customer_text": "@AppleSupport @customer Battery life just got worst.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We'll make sure to get this straightened out. DM us, and we'll see you there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 181
+  },
+  {
+    "pair_id": 2614,
+    "customer_text": "@AppleSupport why is my battery life short? I updated to 11.1, my battery is poor. Wife didn\u2019t she likes her battery life",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let\u2019s work together on this situation. To clarify, did this start after updating to iOS 11.1? Also, which device are you using?",
+    "issue_complexity": "SIMPLE",
+    "id": 182
+  },
+  {
+    "pair_id": 4910,
+    "customer_text": "Series1 #Applewatch would consistently get 18 hrs + per charge prior to last update. Now 12-13 hrs max.Died @ gym 2nite. Wtf @AppleSupport ?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want your Apple Watch to keep up with you at the gym. To begin, which watchOS is installed?",
+    "issue_complexity": "SIMPLE",
+    "id": 183
+  },
+  {
+    "pair_id": 13199,
+    "customer_text": "@AppleSupport Connect to*",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We understand how tough that is. Please send us a DM to let us know if you have a recent backup in iCloud, or iTunes. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 184
+  },
+  {
+    "pair_id": 8546,
+    "customer_text": "@AppleSupport no, my photos aren\u2019t gone. why are there four (five actually, one isn\u2019t pictured) albums in my photos all labeled twitter?",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Got it. Please continue with us by reaching out to our Photos app experts: https://t.co/IBIY3vMgPj",
+    "issue_complexity": "SIMPLE",
+    "id": 185
+  },
+  {
+    "pair_id": 255537,
+    "customer_text": "@customer I want a refund on purchases made on the Itunes Store, who do I talk to",
+    "ground_truth_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "FINANCIAL_DISPUTE",
+    "reference_reply": "@customer We\u2019d like to look into this further. Please reach out to us here: https://t.co/SDIe7UiyJN",
+    "issue_complexity": "MODERATE",
+    "id": 186
+  },
+  {
+    "pair_id": 8421,
+    "customer_text": "Dear @customer, I have an online order which I never received - who can I talk to?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer We want to help out. Look here to talk with our Online Support: https://t.co/8yjRd1Xo0i",
+    "issue_complexity": "SIMPLE",
+    "id": 187
+  },
+  {
+    "pair_id": 32432,
+    "customer_text": "@AppleSupport My iPhone screen glass is completely cracked. Still the touch screen works. Can I change the glass alone or the display too?",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer We're glad to look into all options with you to have your iPhone serviced. Please DM us to proceed. https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 188
+  },
+  {
+    "pair_id": 699,
+    "customer_text": "@AppleSupport The newest update. I\ufe0f made sure to download it yesterday.",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Lets take a closer look into this issue. Select the following link to join us in a DM and we'll go from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "SIMPLE",
+    "id": 189
+  },
+  {
+    "pair_id": 3765,
+    "customer_text": "@AppleSupport 11.1?? when did that come out lol, i talked to you guys last night and you asked if i was updated to 11.0.3 which i am lol",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer It was released earlier today. Let's use these steps to update iOS: https://t.co/80YRnjDFDk",
+    "issue_complexity": "SIMPLE",
+    "id": 190
+  },
+  {
+    "pair_id": 101301,
+    "customer_text": "@customer @AppleSupport common guys. I rely on your products for video production for broadcast and your update to fix your security issue is completely crashing the OS... as a life long user of your products this is unacceptable",
+    "ground_truth_intent": "SOFTWARE_OS_CRASH",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HIGH_ANGER_CHURN",
+    "reference_reply": "@customer We can definitely understand and want you to be able to rely on our products and software. Which device are you using and what exactly happens?",
+    "issue_complexity": "EDGE_CASE",
+    "id": 191
+  },
+  {
+    "pair_id": 1762,
+    "customer_text": "@AppleSupport Hello, I need some help regarding the region change on my Apple ID",
+    "ground_truth_intent": "APPLE_ID_ICLOUD_SECURITY",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer This article should help with that: https://t.co/usOJWy6ChP",
+    "issue_complexity": "SIMPLE",
+    "id": 192
+  },
+  {
+    "pair_id": 34691,
+    "customer_text": "@AppleSupport When will fix the problem with activation (error 0xE8000013)? Or your phones are now disposable?",
+    "ground_truth_intent": "GENERAL_PRODUCT_INFO",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Let's explore this in more details. Which device is exact iOS version are you using? When are you receiving this error?",
+    "issue_complexity": "SIMPLE",
+    "id": 193
+  },
+  {
+    "pair_id": 1771,
+    "customer_text": "@AppleSupport I just get a white screen and nothing loads. After a short time, it just closes/crashes. Thanks for the reply.",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "AUTO_HANDLE",
+    "escalation_reason": "NONE",
+    "reference_reply": "@customer Which model do you have and is iOS 11.1 installed on it? Any steps tried so far?",
+    "issue_complexity": "SIMPLE",
+    "id": 194
+  },
+  {
+    "pair_id": 84214,
+    "customer_text": "Well guys ... i dropped my iPhone .. my iPhone w/ a case on it .. my iPhone that\u2019s supposedly shatter proof .. my iPhone 8 Plus That now has a cracked screen .. any explanations @customer \ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f\ud83e\udd26\ud83c\udffd\u200d\u2640\ufe0f",
+    "ground_truth_intent": "HARDWARE_BATTERY_CHARGING",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "HARDWARE_REPAIR_BOOKING",
+    "reference_reply": "@customer We can help look into options to get this repaired. Reach out to us in DM and we will help. https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 195
+  },
+  {
+    "pair_id": 13932,
+    "customer_text": "@AppleSupport after updating to ios 11.1 I have no service, displays no service. reset networking settings does nothing",
+    "ground_truth_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "ground_truth_escalation": "HUMAN_ESCALATION",
+    "escalation_reason": "AUTH_REQUIRED",
+    "reference_reply": "@customer We'd like to see what we can do to assist. DM us and we'll continue from there. https://t.co/GDrqU22YpT",
+    "issue_complexity": "MODERATE",
+    "id": 196
+  }
+]

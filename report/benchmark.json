@@ -1,0 +1,212 @@
+{
+  "trivial_baseline": {
+    "system_name": "Trivial Baseline",
+    "runtime_seconds": 0.0,
+    "classification": {
+      "accuracy": 0.1786,
+      "macro_precision": 0.0298,
+      "macro_recall": 0.1667,
+      "macro_f1": 0.0505,
+      "per_class": {
+        "APPLE_ID_ICLOUD_SECURITY": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 35
+        },
+        "BILLING_SUBSCRIPTIONS_PURCHASES": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 35
+        },
+        "CONNECTIVITY_BLUETOOTH_WIFI": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 30
+        },
+        "GENERAL_PRODUCT_INFO": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 26
+        },
+        "HARDWARE_BATTERY_CHARGING": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 35
+        },
+        "SOFTWARE_OS_CRASH": {
+          "precision": 0.1786,
+          "recall": 1.0,
+          "f1": 0.303,
+          "support": 35
+        }
+      }
+    },
+    "escalation": {
+      "escalation_accuracy": 0.7041,
+      "escalation_precision": 0.0,
+      "escalation_recall": 0.0,
+      "escalation_f1": 0.0,
+      "false_auto_handles": 58,
+      "false_auto_handle_rate": 1.0,
+      "false_escalations": 0,
+      "false_escalation_rate": 0.0
+    },
+    "text_quality": {
+      "rouge_1_approx": 0.2011,
+      "rouge_2_approx": 0.05,
+      "compliance_rate_280_chars": 1.0
+    },
+    "llm_judge": {
+      "avg_groundedness_5": 3.56,
+      "avg_tone_empathy_5": 5.0,
+      "avg_actionability_5": 3.0,
+      "safety_pass_rate_pct": 99.5,
+      "composite_quality_100": 75.7
+    }
+  },
+  "simple_baseline": {
+    "system_name": "Simple Baseline (TF-IDF + BM25)",
+    "runtime_seconds": 1.05,
+    "classification": {
+      "accuracy": 0.6276,
+      "macro_precision": 0.8149,
+      "macro_recall": 0.6123,
+      "macro_f1": 0.6147,
+      "per_class": {
+        "APPLE_ID_ICLOUD_SECURITY": {
+          "precision": 0.8824,
+          "recall": 0.4286,
+          "f1": 0.5769,
+          "support": 35
+        },
+        "BILLING_SUBSCRIPTIONS_PURCHASES": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714,
+          "support": 35
+        },
+        "CONNECTIVITY_BLUETOOTH_WIFI": {
+          "precision": 0.9048,
+          "recall": 0.6333,
+          "f1": 0.7451,
+          "support": 30
+        },
+        "GENERAL_PRODUCT_INFO": {
+          "precision": 1.0,
+          "recall": 0.2692,
+          "f1": 0.4242,
+          "support": 26
+        },
+        "HARDWARE_BATTERY_CHARGING": {
+          "precision": 0.7174,
+          "recall": 0.9429,
+          "f1": 0.8148,
+          "support": 35
+        },
+        "SOFTWARE_OS_CRASH": {
+          "precision": 0.3846,
+          "recall": 1.0,
+          "f1": 0.5556,
+          "support": 35
+        }
+      }
+    },
+    "escalation": {
+      "escalation_accuracy": 0.7857,
+      "escalation_precision": 0.66,
+      "escalation_recall": 0.569,
+      "escalation_f1": 0.6111,
+      "false_auto_handles": 25,
+      "false_auto_handle_rate": 0.431,
+      "false_escalations": 17,
+      "false_escalation_rate": 0.1232
+    },
+    "text_quality": {
+      "rouge_1_approx": 0.996,
+      "rouge_2_approx": 0.9949,
+      "compliance_rate_280_chars": 0.9847
+    },
+    "llm_judge": {
+      "avg_groundedness_5": 4.15,
+      "avg_tone_empathy_5": 3.67,
+      "avg_actionability_5": 2.66,
+      "safety_pass_rate_pct": 31.6,
+      "composite_quality_100": 45.3
+    }
+  },
+  "proposed_agent": {
+    "system_name": "Proposed System (AppleSupport AI Agent)",
+    "runtime_seconds": 1.62,
+    "classification": {
+      "accuracy": 0.9898,
+      "macro_precision": 0.991,
+      "macro_recall": 0.9897,
+      "macro_f1": 0.9901,
+      "per_class": {
+        "APPLE_ID_ICLOUD_SECURITY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 35
+        },
+        "BILLING_SUBSCRIPTIONS_PURCHASES": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 35
+        },
+        "CONNECTIVITY_BLUETOOTH_WIFI": {
+          "precision": 1.0,
+          "recall": 0.9667,
+          "f1": 0.9831,
+          "support": 30
+        },
+        "GENERAL_PRODUCT_INFO": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 26
+        },
+        "HARDWARE_BATTERY_CHARGING": {
+          "precision": 1.0,
+          "recall": 0.9714,
+          "f1": 0.9855,
+          "support": 35
+        },
+        "SOFTWARE_OS_CRASH": {
+          "precision": 0.9459,
+          "recall": 1.0,
+          "f1": 0.9722,
+          "support": 35
+        }
+      }
+    },
+    "escalation": {
+      "escalation_accuracy": 0.9031,
+      "escalation_precision": 0.8545,
+      "escalation_recall": 0.8103,
+      "escalation_f1": 0.8319,
+      "false_auto_handles": 11,
+      "false_auto_handle_rate": 0.1897,
+      "false_escalations": 8,
+      "false_escalation_rate": 0.058
+    },
+    "text_quality": {
+      "rouge_1_approx": 0.1501,
+      "rouge_2_approx": 0.0248,
+      "compliance_rate_280_chars": 1.0
+    },
+    "llm_judge": {
+      "avg_groundedness_5": 4.23,
+      "avg_tone_empathy_5": 4.13,
+      "avg_actionability_5": 4.17,
+      "safety_pass_rate_pct": 100.0,
+      "composite_quality_100": 83.6
+    }
+  }
+}

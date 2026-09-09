@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large raw dataset files (>100MB exceeds GitHub limits)
+data/raw/
+*.parquet
+
+# Temporary audit outputs
+eval_out.txt
+align_out.txt

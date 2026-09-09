@@ -1,0 +1,222 @@
+[
+  {
+    "id": 3,
+    "text": "@AppleSupport The app is still there. But no longer able to control it from the lockscreen.",
+    "gt_intent": "HARDWARE_BATTERY_CHARGING",
+    "pred_intent": "HARDWARE_BATTERY_CHARGING",
+    "gt_esc": "AUTO_HANDLE",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "NONE",
+    "pred_reason": "LOW_CONFIDENCE",
+    "draft_reply": "We'd like to take a closer look at this. Please send us a direct message with more details so our specialist team can help you resolve this."
+  },
+  {
+    "id": 4,
+    "text": "@customer how come when I am listening to @customer my music keeps pausing by itself????? I\u2019m sorry I listen to Spotify and not Apple Music but Spotify is simply better. I\u2019m sick of your shit Apple",
+    "gt_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "pred_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "gt_esc": "AUTO_HANDLE",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "NONE",
+    "pred_reason": "LOW_CONFIDENCE",
+    "draft_reply": "We'd like to take a closer look at this. Please send us a direct message with more details so our specialist team can help you resolve this."
+  },
+  {
+    "id": 14,
+    "text": "@AppleSupport Where I live I barely have service, so it says \u201cno service\u201d but I usually send texts through WiFi &amp; it still doesn\u2019t work. But now it\u2019s working. Why is that?",
+    "gt_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "pred_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "AUTH_REQUIRED",
+    "pred_reason": "NONE",
+    "draft_reply": "Let's get this connected. Try toggling Airplane Mode, or head to Settings > General > Reset > Reset Network Settings to re-establish connection. Let us know how it goes!"
+  },
+  {
+    "id": 15,
+    "text": "Hey @AppleSupport why after updating my iPhone to this new update that my phone restarts,has no service, and is slower than over \ud83d\ude44",
+    "gt_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "pred_intent": "SOFTWARE_OS_CRASH",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "AUTH_REQUIRED",
+    "pred_reason": "LOW_CONFIDENCE",
+    "draft_reply": "We'd like to take a closer look at this with your Iphone. Please send us a direct message with more details so our specialist team can help you resolve this."
+  },
+  {
+    "id": 33,
+    "text": "@AppleSupport I got refunded for an in app purchase on Monday &amp; got a conformation email, but there\u2019s no sign of it in my account yet...",
+    "gt_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "pred_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "FINANCIAL_DISPUTE",
+    "pred_reason": "NONE",
+    "draft_reply": "You can review active subscriptions and view your purchase history directly on your device under Settings > [Your Name] > Subscriptions, or at reportaproblem.apple.com."
+  },
+  {
+    "id": 40,
+    "text": "#iOS11.1 is taking iPhones into consistent boot loops !! It remains for a couple of hours boot looping over and over then it gets back on again. This happened since the betas. I thought it's a bug but even now with the official 11.1 it happened. @AppleSupport @customer https://t.co/Q5vk9E0I0W",
+    "gt_intent": "SOFTWARE_OS_CRASH",
+    "pred_intent": "SOFTWARE_OS_CRASH",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "HARDWARE_REPAIR_BOOKING",
+    "pred_reason": "NONE",
+    "draft_reply": "We want your device running smoothly. Have you tried a force restart using the steps here: apple.co/ForceRestart? Let us know if the issue persists afterwards."
+  },
+  {
+    "id": 51,
+    "text": "@AppleSupport I\u2019ve got a screenshot saying my #iPhoneX is reserved for the 3rd then an email saying it\u2019s the 18th... what happened?",
+    "gt_intent": "HARDWARE_BATTERY_CHARGING",
+    "pred_intent": "HARDWARE_BATTERY_CHARGING",
+    "gt_esc": "AUTO_HANDLE",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "NONE",
+    "pred_reason": "LOW_CONFIDENCE",
+    "draft_reply": "We'd like to take a closer look at this with your Iphone. Please send us a direct message with more details so our specialist team can help you resolve this."
+  },
+  {
+    "id": 64,
+    "text": "@AppleSupport the screen on our iPad Pro has stopped working \ud83d\ude14. I've read a few articles about weak screens on some models - is there anywhere I can check the model number, or will it be a \u00a3400 repair bill? Thanks",
+    "gt_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "pred_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "gt_esc": "AUTO_HANDLE",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "NONE",
+    "pred_reason": "LOW_CONFIDENCE",
+    "draft_reply": "We'd like to look into these billing details with you directly. Please send us a DM with your Apple ID email so our billing team can assist: reportaproblem.apple.com"
+  },
+  {
+    "id": 78,
+    "text": "Got burned and scarred with my magsafe charger and Apple didn't give a shit, so I'm switching to Microsoft. @AppleSupport @customer https://t.co/GivRMgiSWk",
+    "gt_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "pred_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "gt_esc": "AUTO_HANDLE",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "NONE",
+    "pred_reason": "HARDWARE_REPAIR_BOOKING",
+    "draft_reply": "We'd like to look into these billing details with you directly. Please send us a DM with your Apple ID email so our billing team can assist: reportaproblem.apple.com"
+  },
+  {
+    "id": 79,
+    "text": "@AppleSupport Iphone 5 must be the best iPhone ever made. I am very disappointed with iPhone 6 and 6plus especially when they develop no service, searching network problems that can't be fixed, very disappointed with iPhones",
+    "gt_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "pred_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "AUTH_REQUIRED",
+    "pred_reason": "NONE",
+    "draft_reply": "Let's get this connected. Try toggling Airplane Mode, or head to Settings > General > Reset > Reset Network Settings to re-establish connection. Let us know how it goes!"
+  },
+  {
+    "id": 86,
+    "text": "@AppleSupport I thought this update would fix the problem with appstore/itunes payments. I cant open some apps , i cant update any and i cant download any",
+    "gt_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "pred_intent": "BILLING_SUBSCRIPTIONS_PURCHASES",
+    "gt_esc": "AUTO_HANDLE",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "NONE",
+    "pred_reason": "LOW_CONFIDENCE",
+    "draft_reply": "We'd like to look into these billing details with you directly. Please send us a DM with your Apple ID email so our billing team can assist: reportaproblem.apple.com"
+  },
+  {
+    "id": 88,
+    "text": "My not so old #iphone6s has almost become a brick after the updates! Why @customer ? Why would you do this to loyal customers. I will but the #iphoneX just don't shove it down my throat like this :-(",
+    "gt_intent": "SOFTWARE_OS_CRASH",
+    "pred_intent": "SOFTWARE_OS_CRASH",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "HARDWARE_REPAIR_BOOKING",
+    "pred_reason": "NONE",
+    "draft_reply": "We want your iphone running smoothly. Have you tried a force restart using the steps here: apple.co/ForceRestart? Let us know if the issue persists afterwards."
+  },
+  {
+    "id": 97,
+    "text": "@AppleSupport I got an email saying I need to reply with my full delivery address yet the email was from __email__??",
+    "gt_intent": "GENERAL_PRODUCT_INFO",
+    "pred_intent": "GENERAL_PRODUCT_INFO",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "AUTH_REQUIRED",
+    "pred_reason": "NONE",
+    "draft_reply": "We'd love to help answer your question. You can check product specifications, trade-in values, and store availability at apple.com or schedule a Genius Bar visit."
+  },
+  {
+    "id": 105,
+    "text": "@AppleSupport Hi, do you have french support ? I want to change my delivery address on an order placed Thanls",
+    "gt_intent": "GENERAL_PRODUCT_INFO",
+    "pred_intent": "GENERAL_PRODUCT_INFO",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "AUTH_REQUIRED",
+    "pred_reason": "NONE",
+    "draft_reply": "We'd love to help answer your question. You can check product specifications, trade-in values, and store availability at apple.com or schedule a Genius Bar visit."
+  },
+  {
+    "id": 116,
+    "text": "@AppleSupport I don\u2019t know. I need the space though. How do I get rid of some snapshots",
+    "gt_intent": "HARDWARE_BATTERY_CHARGING",
+    "pred_intent": "SOFTWARE_OS_CRASH",
+    "gt_esc": "AUTO_HANDLE",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "NONE",
+    "pred_reason": "LOW_CONFIDENCE",
+    "draft_reply": "We'd like to take a closer look at this. Please send us a direct message with more details so our specialist team can help you resolve this."
+  },
+  {
+    "id": 147,
+    "text": "Can you sort an update to put back the option to turn off auto-brightness, @customer @AppleSupport. Burning my battery and my retina.",
+    "gt_intent": "HARDWARE_BATTERY_CHARGING",
+    "pred_intent": "HARDWARE_BATTERY_CHARGING",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "HARDWARE_REPAIR_BOOKING",
+    "pred_reason": "NONE",
+    "draft_reply": "We're here to help. Check your Battery Health under Settings > Battery > Battery Health to review maximum capacity and peak performance, or see steps here: apple.co/BatteryInfo"
+  },
+  {
+    "id": 167,
+    "text": "\u00c9cran d\u2019iPhone cass\u00e9. Impossible \u00e0 connecter sur iTunes ... des astuces svp ? @AppleSupport",
+    "gt_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "pred_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "gt_esc": "AUTO_HANDLE",
+    "pred_esc": "HUMAN_ESCALATION",
+    "gt_reason": "NONE",
+    "pred_reason": "LOW_CONFIDENCE",
+    "draft_reply": "We'd like to take a closer look at this with your Iphone. Please send us a direct message with more details so our specialist team can help you resolve this."
+  },
+  {
+    "id": 172,
+    "text": "@AppleSupport my iPhone 7 Plus is constantly saying no service and has since around lunch time, my SIM card works in other phones but when I put other sims in my phone it still says no service so is obviously my phone and not my sim, what can I do?",
+    "gt_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "pred_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "AUTH_REQUIRED",
+    "pred_reason": "NONE",
+    "draft_reply": "Let's get this connected. Try toggling Airplane Mode, or head to Settings > General > Reset > Reset Network Settings to re-establish connection. Let us know how it goes!"
+  },
+  {
+    "id": 188,
+    "text": "@AppleSupport My iPhone screen glass is completely cracked. Still the touch screen works. Can I change the glass alone or the display too?",
+    "gt_intent": "HARDWARE_BATTERY_CHARGING",
+    "pred_intent": "HARDWARE_BATTERY_CHARGING",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "HARDWARE_REPAIR_BOOKING",
+    "pred_reason": "NONE",
+    "draft_reply": "We're here to help. Check your Battery Health under Settings > Battery > Battery Health to review maximum capacity and peak performance, or see steps here: apple.co/BatteryInfo"
+  },
+  {
+    "id": 196,
+    "text": "@AppleSupport after updating to ios 11.1 I have no service, displays no service. reset networking settings does nothing",
+    "gt_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "pred_intent": "CONNECTIVITY_BLUETOOTH_WIFI",
+    "gt_esc": "HUMAN_ESCALATION",
+    "pred_esc": "AUTO_HANDLE",
+    "gt_reason": "AUTH_REQUIRED",
+    "pred_reason": "NONE",
+    "draft_reply": "Let's get this connected. Try toggling Airplane Mode, or head to Settings > General > Reset > Reset Network Settings to re-establish connection. Let us know how it goes!"
+  }
+]
