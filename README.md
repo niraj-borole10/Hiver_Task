@@ -24,7 +24,7 @@
 
 ---
 
-## ⏱️ Quickstart: Reproduce Headline Results in < 2 Minutes
+## Quickstart: Reproduce Headline Results in < 2 Minutes
 
 The entire evaluation is completely self-contained and pre-cached. You do **not** need external API keys or heavy GPU setups to reproduce the full benchmark.
 
@@ -134,22 +134,22 @@ Hiver/
 
 ---
 
-## 🏷️ 6-Intent Operational Taxonomy
+## 6-Intent Operational Taxonomy
 
 Each incoming inquiry is mapped to one of six production-defined operational intents designed around distinct resolution workflows:
 
 | Intent Category | Scope & Diagnostic Triggers | Example Customer Query | Resolution Pathway |
 | :--- | :--- | :--- | :--- |
-| **`HARDWARE_BATTERY_CHARGING`**<br>`🔋 Hardware` | Battery health decay, rapid drain, charging port faults, swollen battery, physical screen crack. | *"My iPhone 7 battery is draining from 100% to 20% in 2 hours since updating."* | **Self-Serve**: Battery Health settings guide (`apple.co/BatteryInfo`).<br>**Escalate**: Physical damage or replacement intake. |
-| **`SOFTWARE_OS_CRASH`**<br>`💻 Software & OS` | iOS/macOS update glitches, continuous boot loops, app freezes, "System Data" storage bugs. | *"Phone is stuck on the Apple logo after updating to iOS 11 and won't turn on."* | **Self-Serve**: Force restart & DFU mode steps (`apple.co/ForceRestart`).<br>**Escalate**: Persistent bricking/hardware restore errors. |
-| **`APPLE_ID_ICLOUD_SECURITY`**<br>`🔐 Security & Auth` | Disabled Apple IDs, 2FA code delivery failures, password recovery, unauthorized logins. | *"Someone hacked into my Apple ID and changed my recovery email! Help!"* | **Self-Serve**: Official portal (`iforgot.apple.com`).<br>**Escalate**: Account takeover, stolen devices, 2FA lockout. |
-| **`BILLING_SUBSCRIPTIONS_PURCHASES`**<br>`💳 Billing & Subscriptions` | Unrecognized `ITUNES.COM/BILL` charges, refund requests, unwanted subscription renewals. | *"Why was I charged $9.99 from ITUNES.COM/BILL? I bought nothing, refund me now."* | **Self-Serve**: Subscriptions management (`reportaproblem.apple.com`).<br>**Escalate**: Fraud reports, double charges, payment disputes. |
-| **`CONNECTIVITY_BLUETOOTH_WIFI`**<br>`📶 Connectivity` | Wi-Fi disconnects, AirPods/Apple Watch pairing failure, cellular "No Service" errors. | *"My AirPods keep disconnecting every 5 minutes from my MacBook Pro during calls."* | **Self-Serve**: Network settings reset & re-pairing guide.<br>**Escalate**: Carrier lock, SIM card hardware failure. |
-| **`GENERAL_PRODUCT_INFO`**<br>`🏬 Store & Product` | Store hours, Genius Bar appointments, trade-in estimates, official warranty coverage. | *"Can I trade in my iPhone 6s for the new iPhone 8 at the Genius Bar?"* | **Self-Serve**: Store locator & AppleCare coverage check.<br>**Escalate**: Lost/stolen pre-order shipments requiring order lookup. |
+| **`HARDWARE_BATTERY_CHARGING`**<br>`Hardware` | Battery health decay, rapid drain, charging port faults, swollen battery, physical screen crack. | *"My iPhone 7 battery is draining from 100% to 20% in 2 hours since updating."* | **Self-Serve**: Battery Health settings guide (`apple.co/BatteryInfo`).<br>**Escalate**: Physical damage or replacement intake. |
+| **`SOFTWARE_OS_CRASH`**<br>`Software & OS` | iOS/macOS update glitches, continuous boot loops, app freezes, "System Data" storage bugs. | *"Phone is stuck on the Apple logo after updating to iOS 11 and won't turn on."* | **Self-Serve**: Force restart & DFU mode steps (`apple.co/ForceRestart`).<br>**Escalate**: Persistent bricking/hardware restore errors. |
+| **`APPLE_ID_ICLOUD_SECURITY`**<br>`Security & Auth` | Disabled Apple IDs, 2FA code delivery failures, password recovery, unauthorized logins. | *"Someone hacked into my Apple ID and changed my recovery email! Help!"* | **Self-Serve**: Official portal (`iforgot.apple.com`).<br>**Escalate**: Account takeover, stolen devices, 2FA lockout. |
+| **`BILLING_SUBSCRIPTIONS_PURCHASES`**<br>`Billing & Subscriptions` | Unrecognized `ITUNES.COM/BILL` charges, refund requests, unwanted subscription renewals. | *"Why was I charged $9.99 from ITUNES.COM/BILL? I bought nothing, refund me now."* | **Self-Serve**: Subscriptions management (`reportaproblem.apple.com`).<br>**Escalate**: Fraud reports, double charges, payment disputes. |
+| **`CONNECTIVITY_BLUETOOTH_WIFI`**<br>`Connectivity` | Wi-Fi disconnects, AirPods/Apple Watch pairing failure, cellular "No Service" errors. | *"My AirPods keep disconnecting every 5 minutes from my MacBook Pro during calls."* | **Self-Serve**: Network settings reset & re-pairing guide.<br>**Escalate**: Carrier lock, SIM card hardware failure. |
+| **`GENERAL_PRODUCT_INFO`**<br>`Store & Product` | Store hours, Genius Bar appointments, trade-in estimates, official warranty coverage. | *"Can I trade in my iPhone 6s for the new iPhone 8 at the Genius Bar?"* | **Self-Serve**: Store locator & AppleCare coverage check.<br>**Escalate**: Lost/stolen pre-order shipments requiring order lookup. |
 
 ---
 
-## 📦 Key Deliverables & Documentation
+## Key Deliverables & Documentation
 
 > [!NOTE]
 > All deliverables required by the Hiver specification are fully documented, linked below, and reproducible.
@@ -157,7 +157,7 @@ Each incoming inquiry is mapped to one of six production-defined operational int
 <table>
   <tr>
     <td width="50%">
-      <h3>📄 <a href="report/REPORT.md">Technical Report</a></h3>
+      <h3><a href="report/REPORT.md">Technical Report</a></h3>
       <p><b>Comprehensive 6-page equivalent engineering deep-dive:</b></p>
       <ul>
         <li><b>Problem Framing</b>: What "good" means for @AppleSupport & intentional non-goals.</li>
@@ -168,7 +168,7 @@ Each incoming inquiry is mapped to one of six production-defined operational int
       </ul>
     </td>
     <td width="50%">
-      <h3>🧠 <a href="report/decisions.md">Decision Log</a></h3>
+      <h3><a href="report/decisions.md">Decision Log</a></h3>
       <p><b>14 non-obvious engineering & product decisions:</b></p>
       <ul>
         <li>Why @AppleSupport was chosen over @AmazonHelp.</li>
@@ -182,7 +182,7 @@ Each incoming inquiry is mapped to one of six production-defined operational int
   </tr>
   <tr>
     <td width="50%">
-      <h3>🎯 <a href="data/golden.json">Golden Benchmark Set</a></h3>
+      <h3><a href="data/golden.json">Golden Benchmark Set</a></h3>
       <p><b>196 hand-verified, stratified test inquiries:</b></p>
       <ul>
         <li>Balanced across all 6 operational intents.</li>
@@ -192,7 +192,7 @@ Each incoming inquiry is mapped to one of six production-defined operational int
       </ul>
     </td>
     <td width="50%">
-      <h3>📐 <a href="data/sampling.md">Sampling & Labeling Guide</a></h3>
+      <h3><a href="data/sampling.md">Sampling & Labeling Guide</a></h3>
       <p><b>Protocol & taxonomy documentation:</b></p>
       <ul>
         <li>Stratified keyword cluster sampling methodology.</li>
@@ -206,7 +206,7 @@ Each incoming inquiry is mapped to one of six production-defined operational int
 
 ---
 
-## 🛠️ Tech Stack & Dataset Citations
+## Tech Stack & Dataset Citations
 
 <div align="center">
 
