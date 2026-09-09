@@ -134,30 +134,89 @@ Hiver/
 
 ---
 
-## 6-Intent Taxonomy
+## 🏷️ 6-Intent Operational Taxonomy
 
-1. `HARDWARE_BATTERY_CHARGING`: Battery drain, charging faults, damaged screens, swollen batteries.
-2. `SOFTWARE_OS_CRASH`: iOS/macOS update glitches, boot loops, app freezing, system data storage.
-3. `APPLE_ID_ICLOUD_SECURITY`: Disabled accounts, 2FA lockouts, password recovery, compromised Apple IDs.
-4. `BILLING_SUBSCRIPTIONS_PURCHASES`: Unrecognized `ITUNES.COM/BILL` charges, refund inquiries, subscription cancelations.
-5. `CONNECTIVITY_BLUETOOTH_WIFI`: Wi-Fi disconnections, Bluetooth pairing (AirPods, Apple Watch), cellular service drops.
-6. `GENERAL_PRODUCT_INFO`: Store appointments, Genius Bar, trade-in valuations, product release dates.
+Each incoming inquiry is mapped to one of six production-defined operational intents designed around distinct resolution workflows:
 
----
-
-## Key Deliverables & Reports
-
-- **Detailed Technical Report**: See [report/REPORT.md](file:///c:/Users/NIRAJ/Desktop/Hiver/report/REPORT.md)
-  - Framing: What "good" means & what we chose *not* to build.
-  - Head-to-head empirical results vs. two baselines.
-  - Top 5 failure modes with real examples and root-cause hypotheses.
-  - Mandatory section: *"What is misleading about my headline number?"*
-  - Roadmap: *"What you'd do next with one more week."*
-- **Decision Log**: See [report/decisions.md](file:///c:/Users/NIRAJ/Desktop/Hiver/report/decisions.md) (14 non-obvious engineering decisions).
-- **Sampling & Labeling Guide**: See [data/sampling.md](file:///c:/Users/NIRAJ/Desktop/Hiver/data/sampling.md).
+| Intent Category | Scope & Diagnostic Triggers | Example Customer Query | Resolution Pathway |
+| :--- | :--- | :--- | :--- |
+| **`HARDWARE_BATTERY_CHARGING`**<br>`🔋 Hardware` | Battery health decay, rapid drain, charging port faults, swollen battery, physical screen crack. | *"My iPhone 7 battery is draining from 100% to 20% in 2 hours since updating."* | **Self-Serve**: Battery Health settings guide (`apple.co/BatteryInfo`).<br>**Escalate**: Physical damage or replacement intake. |
+| **`SOFTWARE_OS_CRASH`**<br>`💻 Software & OS` | iOS/macOS update glitches, continuous boot loops, app freezes, "System Data" storage bugs. | *"Phone is stuck on the Apple logo after updating to iOS 11 and won't turn on."* | **Self-Serve**: Force restart & DFU mode steps (`apple.co/ForceRestart`).<br>**Escalate**: Persistent bricking/hardware restore errors. |
+| **`APPLE_ID_ICLOUD_SECURITY`**<br>`🔐 Security & Auth` | Disabled Apple IDs, 2FA code delivery failures, password recovery, unauthorized logins. | *"Someone hacked into my Apple ID and changed my recovery email! Help!"* | **Self-Serve**: Official portal (`iforgot.apple.com`).<br>**Escalate**: Account takeover, stolen devices, 2FA lockout. |
+| **`BILLING_SUBSCRIPTIONS_PURCHASES`**<br>`💳 Billing & Subscriptions` | Unrecognized `ITUNES.COM/BILL` charges, refund requests, unwanted subscription renewals. | *"Why was I charged $9.99 from ITUNES.COM/BILL? I bought nothing, refund me now."* | **Self-Serve**: Subscriptions management (`reportaproblem.apple.com`).<br>**Escalate**: Fraud reports, double charges, payment disputes. |
+| **`CONNECTIVITY_BLUETOOTH_WIFI`**<br>`📶 Connectivity` | Wi-Fi disconnects, AirPods/Apple Watch pairing failure, cellular "No Service" errors. | *"My AirPods keep disconnecting every 5 minutes from my MacBook Pro during calls."* | **Self-Serve**: Network settings reset & re-pairing guide.<br>**Escalate**: Carrier lock, SIM card hardware failure. |
+| **`GENERAL_PRODUCT_INFO`**<br>`🏬 Store & Product` | Store hours, Genius Bar appointments, trade-in estimates, official warranty coverage. | *"Can I trade in my iPhone 6s for the new iPhone 8 at the Genius Bar?"* | **Self-Serve**: Store locator & AppleCare coverage check.<br>**Escalate**: Lost/stolen pre-order shipments requiring order lookup. |
 
 ---
 
-## Citations & Dataset Acknowledgement
-- Primary Dataset: *Customer Support on Twitter* (Kaggle: `thoughtvector/customer-support-on-twitter`, HuggingFace mirror: `SunidhiSriram/twcs`).
-- Built with Python, Scikit-Learn, PyArrow, and Pytest.
+## 📦 Key Deliverables & Documentation
+
+> [!NOTE]
+> All deliverables required by the Hiver specification are fully documented, linked below, and reproducible.
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>📄 <a href="report/REPORT.md">Technical Report</a></h3>
+      <p><b>Comprehensive 6-page equivalent engineering deep-dive:</b></p>
+      <ul>
+        <li><b>Problem Framing</b>: What "good" means for @AppleSupport & intentional non-goals.</li>
+        <li><b>Head-to-Head Benchmarks</b>: Trivial Baseline vs. Simple Baseline vs. Proposed Agent.</li>
+        <li><b>Top 5 Failure Modes</b>: Real verbatim examples, root-cause hypotheses, and mitigations.</li>
+        <li><b>"What is Misleading About My Headline Number?"</b>: Critique of ROUGE copy-paste bias & accuracy paradox.</li>
+        <li><b>Roadmap</b>: Concrete engineering goals for "one more week".</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>🧠 <a href="report/decisions.md">Decision Log</a></h3>
+      <p><b>14 non-obvious engineering & product decisions:</b></p>
+      <ul>
+        <li>Why @AppleSupport was chosen over @AmazonHelp.</li>
+        <li>Why a 6-intent taxonomy outperforms a 77-class fine-grained taxonomy.</li>
+        <li>Why the golden set was enriched to 30% escalations.</li>
+        <li>Inverted-index BM25 design for sub-millisecond retrieval.</li>
+        <li>Asymmetric cost matrix: False Auto-Handles vs. False Escalations.</li>
+        <li>Whitelisting official <code>apple.co/*</code> domains to prevent hallucination.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🎯 <a href="data/golden.json">Golden Benchmark Set</a></h3>
+      <p><b>196 hand-verified, stratified test inquiries:</b></p>
+      <ul>
+        <li>Balanced across all 6 operational intents.</li>
+        <li>Calibrated <b>70.4% Auto-Handle / 29.6% Human Escalation</b> split.</li>
+        <li>Includes real edge cases: severe customer anger, compound inquiries, financial disputes.</li>
+        <li>Full annotations: <code>ground_truth_intent</code>, <code>ground_truth_escalation</code>, <code>escalation_reason</code>, <code>reference_reply</code>.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>📐 <a href="data/sampling.md">Sampling & Labeling Guide</a></h3>
+      <p><b>Protocol & taxonomy documentation:</b></p>
+      <ul>
+        <li>Stratified keyword cluster sampling methodology.</li>
+        <li>Decision boundary definitions between self-serve and human escalation.</li>
+        <li>Quality assurance and anonymization protocols.</li>
+        <li>Inter-annotator edge-case guidelines.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack & Dataset Citations
+
+<div align="center">
+
+| Component | Technology / Source | Description |
+| :--- | :--- | :--- |
+| **Primary Dataset** | [Kaggle Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) | ~3M real-world multi-turn support tweets (`@AppleSupport` subset: ~102k tweets). |
+| **ML Engine** | `Scikit-Learn` + `NumPy` | TF-IDF n-gram vectorization with calibrated multi-class Logistic Regression. |
+| **Retrieval** | Custom Inverted-Index BM25 + Vector Cosine | High-speed hybrid lexical & semantic retrieval over 5,000 historical resolutions. |
+| **Safety Guardrails** | Deterministic Regex + Confidence Calibration | Multi-tier triage engine protecting security, payment, and hardware policies. |
+| **Evaluation** | `Pytest` + Automated Multi-Axis Rubric | Pearson-aligned LLM-as-a-judge ($r = 0.8294$) and automated statistical metrics. |
+
+</div>
+
