@@ -1,7 +1,7 @@
 {
   "trivial_baseline": {
     "system_name": "Trivial Baseline",
-    "runtime_seconds": 0.0,
+    "runtime_seconds": 0.01,
     "classification": {
       "accuracy": 0.1786,
       "macro_precision": 0.0298,
@@ -71,7 +71,7 @@
   },
   "simple_baseline": {
     "system_name": "Simple Baseline (TF-IDF + BM25)",
-    "runtime_seconds": 1.05,
+    "runtime_seconds": 1.36,
     "classification": {
       "accuracy": 0.6276,
       "macro_precision": 0.8149,
@@ -141,7 +141,7 @@
   },
   "proposed_agent": {
     "system_name": "Proposed System (AppleSupport AI Agent)",
-    "runtime_seconds": 1.62,
+    "runtime_seconds": 1.74,
     "classification": {
       "accuracy": 0.9898,
       "macro_precision": 0.991,
